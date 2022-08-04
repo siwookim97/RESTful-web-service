@@ -8,3 +8,19 @@ logging:
 spring:
   messages:
     basename: messages
+#  security:
+ #   user:
+  #    name: name
+   #   password: password
+  h2:
+    console:
+      enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+jpa:
+  show-sql:true
